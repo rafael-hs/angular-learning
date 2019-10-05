@@ -39,10 +39,8 @@ export class RadioComponent implements OnInit, ControlValueAccessor {
     this.onChange = fn
   }
   registerOnTouched(fn: any): void {
-    throw new Error("Method not implemented.");
   }
   setDisabledState?(isDisabled: boolean): void {
-    throw new Error("Method not implemented.");
   }
 
 }
